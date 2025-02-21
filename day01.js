@@ -13,4 +13,6 @@
     const lastCompany = itCompanies[numberOfCompanies-1];
     const middleCompany = itCompanies[Math.round((numberOfCompanies-1)/2 )];
     const printAllCompany = itCompanies.forEach(company => console.log(company));
+    const printUpperCompany = itCompanies.forEach(company => console.log(company.toUpperCase()));
+    
     
